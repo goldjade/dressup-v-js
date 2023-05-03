@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>옷 갈아입기</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div id="asdf"></div>
+      <h2>옷 갈아입기</h2>
+      <div class="containner">
+        <div class="clothes-selector">
+          <div class="clothes-list"></div>
+          <div class="select_btn">
+            <button class="type-btn bt selected" data-type="showAll">
+              전체보기
+            </button>
+            <button class="type-btn bt" data-type="bangs">앞머리</button>
+            <button class="type-btn bt" data-type="hair">뒷머리</button>
+            <button class="type-btn bt" data-type="top">상의</button>
+            <button class="type-btn bt" data-type="bottom">하의</button>
+            <button class="type-btn bt" data-type="shoes">신발</button>
+          </div>
+        </div>
+        <div class="model">
+          <div class="dress-up">
+            <img class="model-img" src="images/model.png" alt="모델" />
+            <div class="dress-up-b-hair"></div>
+            <div class="dress-up-hair"></div>
+            <div class="dress-up-top"></div>
+            <div class="dress-up-bottom"></div>
+            <div class="dress-up-shoes"></div>
+          </div>
+          <div class="bottom-btn">
+            <button class="undress bt">모두벗기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

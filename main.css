@@ -1,0 +1,148 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  position: relative;
+  display: block;
+}
+h2 {
+  text-align: center;
+  margin: 50px 0;
+}
+.containner {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clothes-list {
+  position: relative;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  font-size: 0;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.clothes-list img {
+  margin: 0 auto;
+  height: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.select_btn {
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+}
+.bt {
+  display: inline-block;
+  padding: 8px 20px;
+  background: #fff;
+  border: 2px solid teal;
+  border-radius: 10px;
+  color: teal;
+  font-weight: 600;
+}
+.selected {
+  display: inline-block;
+  padding: 8px 20px;
+  background: teal;
+  border: 2px solid teal;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+.model {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.model img[data-type] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+}
+.model .model-img {
+  width: 300px;
+}
+
+.dress-up-hair {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  z-index: -1;
+}
+.dress-up-shoes {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  z-index: 1;
+}
+.dress-up-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  z-index: 2;
+}
+.dress-up-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  z-index: 3;
+}
+.bottom-btn {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.undress:active {
+  display: inline-block;
+  padding: 8px 20px;
+  background: teal;
+  border: 2px solid teal;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+.nemo {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: teal;
+  background-size: cover;
+  animation: nemo 0.5s;
+  z-index: 9999;
+}
+::-webkit-scrollbar-thumb {
+  background: #e89a3e;
+}
+@keyframes nemo {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: scale(1.8);
+  }
+
+  100% {
+    transform: translateY(-30px) scale(1);
+    opacity: 0;
+  }
+}

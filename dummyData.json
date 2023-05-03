@@ -1,0 +1,83 @@
+[
+  {
+    "id": "bangs1",
+    "type": "bangs",
+    "name": "앞머리1",
+    "src": "./images/bangs_1.png"
+  },
+
+  {
+    "id": "bangs2",
+    "type": "bangs",
+    "name": "앞머리2",
+    "src": "./images/bangs_2.png"
+  },
+  {
+    "id": "bangs3",
+    "type": "bangs",
+    "name": "앞머리3",
+    "src": "./images/bangs_3.png"
+  },
+  {
+    "id": "hair1",
+    "type": "hair",
+    "name": "머리1",
+    "src": "./images/hair_1.png"
+  },
+  {
+    "id": "hair2",
+    "type": "hair",
+    "name": "머리2",
+    "src": "./images/hair_2.png"
+  },
+  {
+    "id": "hair3",
+    "type": "hair",
+    "name": "머리3",
+    "src": "./images/hair_3.png"
+  },
+
+  {
+    "id": "bottom1",
+    "type": "bottom",
+    "name": "바지1",
+    "src": "./images/bottom_1.png"
+  },
+  {
+    "id": "bottom2",
+    "type": "bottom",
+    "name": "바지2",
+    "src": "./images/bottom_2.png"
+  },
+  {
+    "id": "top1",
+    "type": "top",
+    "name": "상의1",
+    "src": "./images/top_1.png"
+  },
+  {
+    "id": "top2",
+    "type": "top",
+    "name": "상의2",
+    "src": "./images/top_2.png"
+  },
+
+  {
+    "id": "shoes1",
+    "type": "shoes",
+    "name": "신발1",
+    "src": "./images/shoes_1.png"
+  },
+  {
+    "id": "shoes2",
+    "type": "shoes",
+    "name": "신발2",
+    "src": "./images/shoes_2.png"
+  },
+  {
+    "id": "shoes3",
+    "type": "shoes",
+    "name": "신발3",
+    "src": "./images/shoes_3.png"
+  }
+]
